@@ -7,3 +7,5 @@ console.log(firstName);
 firstName = firstName.toLowerCase()
 console.log(firstName);
 console.log(firstName.length)
+console.log(firstName.slice(0,3));
+console.log(firstName.slice(1));
