@@ -1,6 +1,6 @@
 // array
-const array23 =[sd, fg, gf]
-console.log(array23.pop(sd));
+const array23 =['sd', 'fg', 'gf']
+console.log(array23[1]);
 const myArr = [0, 1, 2, 3, 4, 5]
 const myHeors = ["shaktiman", "naagraj"]
 
