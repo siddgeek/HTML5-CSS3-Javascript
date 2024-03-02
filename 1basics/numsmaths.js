@@ -6,6 +6,10 @@ const balance = new Number(100)
 
 // console.log(balance.toString().length);
 // console.log(balance.toFixed(1));
+const cost = new Number(1000)
+console.log(cost);
+console.log(cost.length);
+console.log(cost.toFixed(2));
 
 const otherNumber = 123.8966
 
