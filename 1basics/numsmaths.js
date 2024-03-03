@@ -12,11 +12,15 @@ console.log(cost.length);
 console.log(cost.toFixed(2));
 
 const otherNumber = 123.8966
+const appllicationCost = 12345.4322
+console.log(appllicationCost.toPrecision(6));
 
 // console.log(otherNumber.toPrecision(4));
 
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN'));
+console.log(Math.ceil(9.5));
+console.log(Math.floor(9.5));
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -33,7 +37,7 @@ console.log((Math.random()*10) + 1);
 console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
-const max = 20
+const max = 40
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 
