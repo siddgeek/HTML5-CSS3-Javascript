@@ -29,3 +29,11 @@ newDate.toLocaleString('default', {
     weekday: "long",
     
 })
+
+let fiDate = new Date()
+console.log(fiDate.toLocaleString(`default`, {
+    weekday: "short",
+    minute: "2-digit",
+    month: "short",
+    era: "long"
+}));
