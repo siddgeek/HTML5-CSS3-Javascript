@@ -40,3 +40,10 @@ console.log(myn2);
 
 const newArray = [1, 2, 3, "sidd", "govind"]
 console.log(newArray[0] + newArray[4]);
+console.log(newArray.push(5));
+console.log(newArray.push("sahara","desert", 69));
+console.log(newArray);
+newArray.pop()
+console.log(newArray);
+console.log(newArray.length);
+
