@@ -38,7 +38,7 @@ const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
 
-const newArray = [1, 2, 3, "sidd", "govind"]
+const newArray = [1, 2, 3,"sidd","govind"]
 console.log(newArray[0] + newArray[4]);
 console.log(newArray.push(5));
 console.log(newArray.push("sahara","desert", 69));
@@ -47,3 +47,15 @@ newArray.pop()
 console.log(newArray);
 console.log(newArray.length);
 
+console.log(newArray.unshift(67));
+console.log(newArray.shift);
+console.log(newArray.includes(67));
+console.log(newArray.indexOf(100));
+
+const newArry = newArray.join()
+console.log(newArry);
+console.log(newArray);
+
+console.log(newArray.slice(1,3));
+console.log(newArray.splice(1,3));
+console.log(newArray);
