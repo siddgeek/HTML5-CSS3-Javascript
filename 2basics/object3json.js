@@ -13,8 +13,8 @@ console.log(courseName);
 console.log(course.price);
 console.log(daam);
 
-{
-    "name": "siddharth",
-    "id": "free",
-    "course": "CSE"
-}
+// {
+//     "name": "siddharth",
+//     "id": "free",
+//     "course": "CSE"
+// }
