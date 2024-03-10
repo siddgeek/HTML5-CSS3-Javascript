@@ -17,4 +17,4 @@ console.log(daam);
 //     "name": "siddharth",
 //     "id": "free",
 //     "course": "CSE"
-// }
+console.log(courseName.price);
