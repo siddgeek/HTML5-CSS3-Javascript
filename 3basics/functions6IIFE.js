@@ -8,3 +8,7 @@
     console.log("DataBase Connected");
 })();
 //we use ; because function can be invoked easily but it doesn't where to stop the context.
+
+(() => {
+    console.log("DataBase Connected through arrow function");
+})();
