@@ -12,3 +12,7 @@
 (() => {
     console.log("DataBase Connected through arrow function");
 })();
+((name) => {
+    console.log(`DataBase Connected through arrow function ${this.name}`);
+})("siddharth");
+// console.log(this.name);
