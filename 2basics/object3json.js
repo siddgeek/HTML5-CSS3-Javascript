@@ -22,3 +22,4 @@ console.log(course.iD);
 //     "course": "CSE"
 console.log(courseName.price);
 console.log(courseName.iD);
+console.log(courseName.iD);
