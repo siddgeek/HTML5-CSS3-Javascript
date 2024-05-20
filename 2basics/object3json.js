@@ -23,3 +23,8 @@ console.log(course.iD);
 console.log(courseName.price);
 console.log(courseName.iD);
 console.log(courseName.iD);
+
+// const navBar = ({company}) => {
+
+// }
+// navBar(company = "Oswal")
