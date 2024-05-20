@@ -28,3 +28,10 @@ console.log(courseName.iD);
 
 // }
 // navBar(company = "Oswal")
+
+// API format example
+/*{
+    "name": "siddharth",
+    "lastName": "Gupta",
+    "age": "21"
+} */
