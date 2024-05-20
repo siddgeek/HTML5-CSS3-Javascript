@@ -27,7 +27,7 @@ const obj3 = Object.assign({}, obj1, obj2)
 // console.log(obj3);
 
 const obj4 = {...obj1, ...obj2, ...obj3}
-// console.log(obj4);
+console.log(obj4);
 
 // jab values database ke pass se ati hain tab wo arrays of objects  ki form mein aati hain.
 
