@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo class</title>
+    <style>
+        #nav-box {
+            list-style: none;
+        }
+        a:hover {
+            color: red;
+        }
+
+        a:active {
+            color: green;
+        }
+
+        input:focus {
+            outline-style: none;
+            border: 1px solid gray;
+        }
+        [type="checkbox"]:checked{
+            width: 50px;
+            height: 50px;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul id="nav-box">
+            <li id="nav-item"><a href="#">Click here</a></li>
+        </ul>
+    </nav>
+    <input>
+    <input type="checkbox">
+</body>
+
+</html>
+
+
+<!-- 
+    Psuedo class
+    -------------
+    1. :hover               (kahi bhi use ho skta hai)
+    2. :focus               (sirf form ke input tag me use hoga)
+    3. :active              (sirf anchor tag me use hoga)
+    4. :visited             (sirf anchor tag me use hoga)
+    5. :unvisited           (sirf anchor tag me use hoga)
+    6. :checked             (sirf check box me use hoga)
+    7. :disable             (sirf input tag me use hoga)
+    8. :empty               (jo element khali ho wha use hoga)
+    9. :enabled             (sirf input tag me use hoga)
+    10. :first-child        
+    11. :last-child
+    12. :first-of-type
+    13. :last-of-type
+    14. :in-range
+    15. :root
+    16. :target
+    17. :valid
+
+    Miscellaneous psuedo class
+    ---------------------------
+    1. :before
+    2. :after
+
+    Miscellaneous psuedo element
+    ----------------------------
+    1. ::before
+    2. ::after
+ -->

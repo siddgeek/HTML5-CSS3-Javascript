@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="success.php">
+            <table width="500" height="480" bgcolor="lightgray">
+                <tr>
+                    <td>Firstname <br />
+                        <input type="text" placeholder="EX-Mr,Miss">
+                    </td>
+                    <td>Lastname <br />
+                        <input type="text" placeholder="EX-Ram">
+                    </td>
+                </tr>
+                <tr>
+                    <td>DOB <br />
+                        <input type="date">
+                    </td>
+                    <td>GENDER <br />
+                        <input type="radio" name="GENDER" value="Male">Male
+                        <input type="radio" name="GENDER" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>MOBILE NO <br />
+                        <input type="number" placeholder="FIRST MOBILE NO">
+                    </td>
+                    <td><input type="number" placeholder="SECOND MOBILE NO"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">EMAIL <br/>
+                        <input type="email" placeholder="email@example.com" size="65">
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">ADDRESS <br/>
+                        <textarea name="Address" cols="62" rows="5"></textarea>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>Select any special course</td>
+                    <td><select name="Courses" >
+                        <option value="software engineering">software engineering</option>
+                        <option value="Web Designing">Web Designing</option>
+                        <option value="Web Programming">Web Programming</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2">UPLOAD YOUR MARKSHEET HERE: <input type="file"/>
+
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="checkbox">
+                        IF ALL INFORMATION ARE TRUE
+                    </td>
+                </tr>
+                <tr><td>
+                    <input type="submit" value="Submit">
+                </td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

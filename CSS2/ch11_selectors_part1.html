@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en-US">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        #one {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        
+        .one {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .two {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+
+        .three {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="one"></div>
+    <div class="one"></div>
+    <div class="one two"></div>
+    <div class="one two three"></div>
+</body>
+</html>
+
+
+<!-- 
+    1. element selector ==> (tag ke name se select karenge)
+    2. id selector      ==> (tag me id attribute lagake uska use karenge)
+    3. class selector      ==> (tag me class attribute lagake uska use karenge)
+    4. attribute selector  ==> (koi bhi tag me koi attribute use karke us attribute se select karenge)
+    5. asterisk selector(universal selector)   ==> (ek sath koi properties ek se jyada element me apply krni ho to universal selector ka use karenge)
+    6. nesting selector ==> (kisi element ke andar wale element ko select karenge)
+    7. multiple selector (also known as smart documentation) ==> (ek sath ek se jyada chijo ko select karna)
+    8. global and local approach
+ -->

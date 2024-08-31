@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding:0;
+        }
+        .navbar{
+            list-style: none;
+           margin:0;
+           padding: 0;
+           background-color: black;
+           width: 100%;
+           height: 47px;
+           position: relative;
+        }
+        .nav-item{
+            display: inline-block;
+            padding: 14px;
+            margin-left: 1px;
+            
+            
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            font-family: calibri;
+        }
+        .nav-item:hover{
+            background-color: red;
+
+        }
+        .dropdown{
+            list-style: none;
+            margin: 0;
+            padding:0;
+            position: absolute;
+            top:47.5px;
+            background-color: black;
+            color: white;
+            width: 110px;
+            left: 0;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) ;
+            display: none;
+        }
+        .relative{
+            position: relative;
+            
+        }
+        .relative:hover .dropdown{
+            display: block;
+        }
+        .dropdown-items{
+            padding: 10px;
+            
+
+        }
+        .dropdown-items:hover{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li class="nav-item"> <a href="#"> Home</a></li>   
+            <li class="nav-item"> <a href="#"> Audio</a></li>
+            <li class="nav-item"> <a href="#"> Video</a></li>
+            <li class="nav-item"> <a href="#"> Contact</a></li>
+            <li class="nav-item relative"> <a href="#">Download</a>
+                <i class="fa fa-caret-down" style="color:white; float:right;margin-left: 5px; margin-top:3px;"></i>
+                <ul class="dropdown">
+                    <li class="dropdown-items">Movies</li>
+                    <li class="dropdown-items">Rintones</li>
+                    <li class="dropdown-items">Music</li>
+                    <li class="dropdown-items">Videos</li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+</body>
+</html>
