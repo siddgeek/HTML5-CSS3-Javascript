@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form method="post" action="success.php">
+        <fieldset>
+            <legend>Login Us</legend>
+        First Name:
+        <input type="text" name="First Name" ><br><br>
+        Last Name:
+        <input type="text" name="Last Name" ><br><br>
+        Email:
+        <input type="email" name="Email"><br><br>
+        Password:
+        <input type="password" name="password"><br><br>
+        <pre><input type="reset" value="Erase All">                  <input type="submit" value="Send"></pre>
+        Address:  <br>
+        <textarea cols="50" rows="8"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
+
+<!-- 
+    tags related to create a form
+    -----------------------------
+    1. form tag ==> <form> </form>
+    2. input tag ==> <input>   ===> empty tag
+    3. textarea tag ==> <textarea> </textarea>
+    4. select tag ==> <select> </select>        ('name' attribut compulsory)
+    5. option tag ==> <option> </option>        ('value' attribut compulsory) 
+    6. fieldset tag ==> <fieldset> </fieldset>
+    7. legend tag ==> <legend> </legend>
+
+
+    input tag attributes
+    --------------------
+    1. type ==> "text", "number", "email", "password", "range", "date", "week", "month", "tel", "hidden", "website", "color" "file", "submit",
+                "reset", "checkbox", "radio", "image", "button", "search"
+    2. value ==> text want to define in button (used in special case)
+    3. name  ==> content
+    4. size  ==> "20"
+    5. max,maxlength ==> "8"
+    6. placeholder ==> "watermark content"
+    7. required ==> "required"
+    8. accept ==> ".jpg"
+    9. onclick ==> function name
+    10. eval(ye function hai javascript ka)
+
+    Form tag attribute
+    ------------------
+    1. Method="get","post"//provide security
+    2. Action="success.php"
+    3. name = "selector"
+
+    textarea tag attribute
+    ------------------
+    1. cols="num"
+    2. rows="num"
+    3. name = "selector"
+ -->

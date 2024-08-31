@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<body>
+  <center> <font face="calibri" size="30" color="red">HTML CALCULATOR</font> </center>
+<form name="cal">
+    <table border="1" width="250" height="300" align="center">
+        <tr >
+            <td colspan="4" height="30"><input type="result" name="result" size="40" ></td>
+            
+        </tr>
+        <tr align="center" bgcolor="black">
+            <td><input type="button" value="1" onclick="document.cal.result.value+=1"></td>
+            <td><input type="button" value="2" onclick="document.cal.result.value+=2"></td>
+            <td><input type="button" value="3" onclick="document.cal.result.value+=3"></td>
+            <td><input type="button" value="+" onclick="document.cal.result.value+='+'"></td>
+        </tr>
+        <tr align="center" bgcolor="black">
+            <td><input type="button" value="4" onclick="document.cal.result.value+=4"></td>
+            <td><input type="button" value="5" onclick="document.cal.result.value+=5"></td>
+            <td><input type="button" value="6" onclick="document.cal.result.value+=6"></td>
+            <td><input type="button" value="-" onclick="document.cal.result.value+='-'"></td>
+        </tr>
+        <tr align="center" bgcolor="black">
+            <td><input type="button" value="7" onclick="document.cal.result.value+=7"></td>
+            <td><input type="button" value="8" onclick="document.cal.result.value+=8"></td>
+            <td><input type="button" value="9" onclick="document.cal.result.value+=9"></td>
+            <td><input type="button" value="*" onclick="document.cal.result.value+='*'"></td>
+        </tr>
+        <tr align="center" bgcolor="black">
+            <td><input type="button" value="0" onclick="document.cal.result.value+=0"></td>
+            <td><input type="button" value="." onclick="document.cal.result.value+='.'"></td>
+            <td bgcolor="yellow"><input type="button" value="=" onclick="document.cal.result.value=eval(document.cal.result.value)"></td>
+            <td bgcolor="red"><input type="button" value="C" onclick="document.cal.result.value=''"></td>
+        </tr>
+    </table>
+</form> 
+</body>
+</html>
