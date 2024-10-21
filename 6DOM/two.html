@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Hind Jai Bharat</title>
+</head>
+<body style="background-color: grey; color: white">
+    <div class="parent"> DAYS:-
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    document.querySelector('.parent');
+    const baap = document.querySelector('.parent');
+    // console.log(baap);
+    // console.log(baap);
+     console.log(baap.children);
+     console.log(baap.children[2]);
+     console.log(baap.children[2].innerHTML);
+
+     for(let i=0; i < baap.children.length; i++){
+        console.log(baap.children[i].innerHTML);
+        
+     }
+     baap.children[0].style.color = "black";
+     baap.children[1].style.color = "blue";
+     baap.children[2].style.color = "orange";
+     baap.children[3].style.color = "purple";
+     baap.children[3].style.padding = "15px";
+     baap.children[2].style.padding = "15px";
+     baap.children[1].style.padding = "15px";
+     baap.children[0].style.padding = "15px";
+
+     console.log(baap.firstElementChild);
+    
+     console.log(baap.lastElementChild);
+
+     const day1 = document.querySelector('.day');
+     console.log(day1);
+     console.log(day1.parentElement);
+     console.log(day1.nextElementSibling);
+     console.log(day1.nextSibling);
+     
+
+     console.log("Nodes: ", baap.childNodes);
+     
+           
+    </script>
+</html>
